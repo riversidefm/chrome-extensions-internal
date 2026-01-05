@@ -16,11 +16,10 @@
             <key>PayloadDisplayName</key>
             <string>Riverside Chrome Extension Policy</string>
             
-            <!-- Force-install extension from self-hosted URL -->
-            <!-- REPLACE YOUR_DOMAIN with your actual hosting URL -->
+            <!-- Force-install extension from GitHub Releases -->
             <key>ExtensionInstallForcelist</key>
             <array>
-                <string>ejpmdafghnopmhnbljbdbgnecgmbhaih;https://YOUR_DOMAIN/updates.xml</string>
+                <string>ejpmdafghnopmhnbljbdbgnecgmbhaih;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
             </array>
             
             <key>ExtensionSettings</key>
@@ -30,7 +29,7 @@
                     <key>installation_mode</key>
                     <string>force_installed</string>
                     <key>update_url</key>
-                    <string>https://YOUR_DOMAIN/updates.xml</string>
+                    <string>https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
                     <key>toolbar_pin</key>
                     <string>force_pinned</string>
                 </dict>
@@ -52,9 +51,8 @@
     <key>PayloadOrganization</key>
     <string>Riverside</string>
     <key>PayloadDescription</key>
-    <string>Force-installs Riverside Internal Header Chrome extension from self-hosted server</string>
+    <string>Force-installs Riverside Internal Header Chrome extension from GitHub</string>
     <key>PayloadScope</key>
     <string>System</string>
 </dict>
 </plist>
-
