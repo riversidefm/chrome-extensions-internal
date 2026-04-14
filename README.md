@@ -12,5 +12,5 @@ This repository hosts the Chrome extension releases for enterprise deployment.
 Use with Chrome's `ExtensionInstallForcelist` policy:
 
 ```
-jhaekhgnbcaogbkfbijjbjhodgcponja;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml
+cobpohpkijiibppoejoeodhhpijaeied;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml
 ```

@@ -18,7 +18,7 @@
             
             <key>ExtensionInstallForcelist</key>
             <array>
-                <string>jhaekhgnbcaogbkfbijjbjhodgcponja;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
+                <string>cobpohpkijiibppoejoeodhhpijaeied;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
                 <string>glnpjglilkicbckjpbgcfkogebgllemb;https://clients2.google.com/service/update2/crx</string>
                 <string>aeblfdkhhhdcdjpifhhbdiojplfjncoa;https://clients2.google.com/service/update2/crx</string>
                 <string>ddgjgikdbdfegdgcinhnbeeaomomhegp;https://clients2.google.com/service/update2/crx</string>
@@ -33,7 +33,7 @@
                     <string>allowed</string>
                 </dict>
                 <!-- Force-install Riverside Internal Header (users can unpin from toolbar) -->
-                <key>jhaekhgnbcaogbkfbijjbjhodgcponja</key>
+                <key>cobpohpkijiibppoejoeodhhpijaeied</key>
                 <dict>
                     <key>installation_mode</key>
                     <string>force_installed</string>
