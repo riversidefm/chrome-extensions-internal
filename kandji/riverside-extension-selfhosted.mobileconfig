@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.google.Chrome</string>
+            <key>PayloadIdentifier</key>
+            <string>com.riverside.chrome.extension-policy</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Riverside Chrome Extension Policy</string>
+            
+            <key>ExtensionInstallForcelist</key>
+            <array>
+                <string>jhaekhgnbcaogbkfbijjbjhodgcponja;https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
+                <string>glnpjglilkicbckjpbgcfkogebgllemb;https://clients2.google.com/service/update2/crx</string>
+                <string>aeblfdkhhhdcdjpifhhbdiojplfjncoa;https://clients2.google.com/service/update2/crx</string>
+                <string>ddgjgikdbdfegdgcinhnbeeaomomhegp;https://clients2.google.com/service/update2/crx</string>
+            </array>
+            
+            <key>ExtensionSettings</key>
+            <dict>
+                <!-- Default policy for ALL extensions: allow users to install/manage freely -->
+                <key>*</key>
+                <dict>
+                    <key>installation_mode</key>
+                    <string>allowed</string>
+                </dict>
+                <!-- Force-install Riverside Internal Header (users can unpin from toolbar) -->
+                <key>jhaekhgnbcaogbkfbijjbjhodgcponja</key>
+                <dict>
+                    <key>installation_mode</key>
+                    <string>force_installed</string>
+                    <key>update_url</key>
+                    <string>https://github.com/riversidefm/chrome-extensions-internal/releases/download/v1.0.0/updates.xml</string>
+                </dict>
+                <!-- Force-install Google Workspace extension 1 -->
+                <key>glnpjglilkicbckjpbgcfkogebgllemb</key>
+                <dict>
+                    <key>installation_mode</key>
+                    <string>force_installed</string>
+                    <key>update_url</key>
+                    <string>https://clients2.google.com/service/update2/crx</string>
+                </dict>
+                <!-- Force-install Google Workspace extension 2 -->
+                <key>aeblfdkhhhdcdjpifhhbdiojplfjncoa</key>
+                <dict>
+                    <key>installation_mode</key>
+                    <string>force_installed</string>
+                    <key>update_url</key>
+                    <string>https://clients2.google.com/service/update2/crx</string>
+                </dict>
+                <!-- Force-install Michi Bug Reporter -->
+                <key>ddgjgikdbdfegdgcinhnbeeaomomhegp</key>
+                <dict>
+                    <key>installation_mode</key>
+                    <string>force_installed</string>
+                    <key>update_url</key>
+                    <string>https://clients2.google.com/service/update2/crx</string>
+                </dict>
+            </dict>
+            
+        </dict>
+    </array>
+    
+    <key>PayloadDisplayName</key>
+    <string>Riverside Chrome Extension Policy</string>
+    <key>PayloadIdentifier</key>
+    <string>com.riverside.chrome.policy</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>B2C3D4E5-F6A7-8901-BCDE-F23456789012</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadOrganization</key>
+    <string>Riverside</string>
+    <key>PayloadDescription</key>
+    <string>Force-installs Chrome extensions: Riverside Internal Header, Google Workspace extensions, and Michi Bug Reporter</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+</dict>
+</plist>
+
